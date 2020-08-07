@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2020年07月19日 星期日 19时49分03秒 by Eclipse SUMO GUI Version 1.6.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/yining/CARLA_0.9.9/Co-Simulation/Sumo/examples/net/Town04.net.xml"/>
+        <route-files value="/home/yining/Flow/flow/core/kernel/network/debug/cfg/template_20200719-1948021595159282.5478764.rou.xml"/>
+        <additional-files value="/home/yining/Flow/flow/core/kernel/network/debug/cfg/template_20200719-1948021595159282.5478764.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <collision.check-junctions value="true"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="54297"/>
+        <num-clients value="1"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="/home/yining/Flow/flow/core/kernel/network/debug/cfg/template_20200719-1948021595159282.5478764.gui.cfg"/>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>
